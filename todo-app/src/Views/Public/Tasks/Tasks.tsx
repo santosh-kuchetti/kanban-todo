@@ -197,7 +197,7 @@ const Tasks = () => {
   const saveTodoEditMemoized = useMemo(() => saveTodoEdit, [saveTodoEdit]);
 
   return (
-    <Box height='100vh'>
+    <Box>
       <Button
         variant="contained"
         onClick={() => {
