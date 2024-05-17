@@ -126,7 +126,7 @@ const AddTodoModal = ({
                   <Input
                     id="todo"
                     name="todo"
-                    placeholder="Enter title"
+                    placeholder="Enter Todo"
                     onChange={handleChange}
                     value={form?.todo || initForm?.todo}
                     fullWidth
