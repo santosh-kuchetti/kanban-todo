@@ -60,9 +60,13 @@ const NavButton: React.FC<NavButtonProps> = ({ Item }) => {
           variant={currentRoute == Item.value ? "s12w5cw" : "s12w5cb"}
           sx={{
             backgroundColor: currentRoute == Item.value ? "black" : "#F2F4F7",
-            width: '20px',
-            height: '20px',
-            borderRadius:'6px'
+            width: "20px",
+            height: "20px",
+            borderRadius: "6px",
+            textAlign: "center",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
           }}
         >
           {taskCount}
